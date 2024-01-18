@@ -14,7 +14,7 @@
     "--shm-size",
     "16G"
   ],
-  "remoteUser": "jenkins",
+  "remoteUser": "lilsak",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -22,7 +22,6 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/opt/conda/envs/py_3.9/bin/python",
         "files.autoSave": "onFocusChange",
         "jupyter.notebookFileRoot": "${workspaceFolder}"
       }
